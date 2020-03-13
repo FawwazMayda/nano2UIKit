@@ -36,10 +36,10 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destination = segue.destination as? DetailViewController
-        if segue.identifier=="toDetailView" {
-            
-        }
+        let destinationView = segue.destination as? DetailViewController
+        destinationView?.musicTitle = titleLabel.text!
+            destinationView?.imageDetail = coverImage.image
+        destinationView?.desc = artistLabel.text!
     }
     
 }
