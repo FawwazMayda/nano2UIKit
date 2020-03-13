@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         coverImage.image = imageArray[randomId]
     }
     @IBAction func detailSongTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "toDetailView", sender: self)
     }
     
 }
