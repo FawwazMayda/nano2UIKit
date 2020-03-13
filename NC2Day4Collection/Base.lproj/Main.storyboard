@@ -64,6 +64,7 @@
                         <outlet property="artistLabel" destination="GPv-Vb-cNB" id="3oG-ju-epA"/>
                         <outlet property="coverImage" destination="NCs-Sp-d5Q" id="Tox-qo-k8B"/>
                         <outlet property="titleLabel" destination="V2n-SX-wDW" id="kOv-Ro-hj2"/>
+                        <segue destination="ccK-5j-9xi" kind="push" identifier="toDetailView" id="Xa5-KQ-boM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -164,7 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WA1-r9-zJQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1048" y="901"/>
+            <point key="canvasLocation" x="1958" y="885"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4SR-CK-8jT">
