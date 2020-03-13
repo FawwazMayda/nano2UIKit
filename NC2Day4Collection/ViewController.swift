@@ -16,13 +16,20 @@ class ViewController: UIViewController {
     
     var titleArray : [String] = ["Jaran Goyang"," Honey Bunny","Solo Racing"]
     var descArray : [String] = ["Mengapa","Engkau","Bola"]
-    var imageArray : [UIImage] = [#imageLiteral(resourceName: "img_room") , #imageLiteral(resourceName: "img_building"), #imageLiteral(resourceName: "img_room")]
+    var imageArray : [UIImage] = [#imageLiteral(resourceName: "img_room") , #imageLiteral(resourceName: "img_building"), #imageLiteral(resourceName: "img_coffee")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        titleLabel.text = titleArray[0]
+        artistLabel.text = descArray[0]
+        coverImage.image = imageArray[0]
     }
     
     @IBAction func shuffleTapped(_ sender: UIButton) {
+        let randomId = Int.random(in: 0..<imageArray.count)
+        titleLabel.text = titleArray[randomId]
+        artistLabel.text = descArray[randomId]
+        coverImage.image = imageArray[randomId]
     }
     @IBAction func detailSongTapped(_ sender: UIButton) {
     }
