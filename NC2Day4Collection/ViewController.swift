@@ -10,8 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var artistLabel: UILabel!
+    @IBOutlet weak var coverImage: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    @IBAction func shuffleTapped(_ sender: UIButton) {
+    }
+    @IBAction func detailSongTapped(_ sender: UIButton) {
     }
     
 }
