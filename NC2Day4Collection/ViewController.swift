@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var artistLabel: UILabel!
     @IBOutlet weak var coverImage: UIImageView!
     
+    var titleArray : [String] = []
+    var descArray : [String] = []
+    var imageArray : [UIImage] = [#imageLiteral(resourceName: "img_room") , #imageLiteral(resourceName: "img_building"), #imageLiteral(resourceName: "img_room")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
