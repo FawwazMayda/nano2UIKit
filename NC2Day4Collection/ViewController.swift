@@ -35,5 +35,12 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "toDetailView", sender: self)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as? DetailViewController
+        if segue.identifier=="toDetailView" {
+            
+        }
+    }
+    
 }
 

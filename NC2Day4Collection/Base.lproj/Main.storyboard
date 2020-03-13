@@ -146,7 +146,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img_room" translatesAutoresizingMaskIntoConstraints="NO" id="oW6-ZJ-S5Q">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="756"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title from Artist" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTz-ic-13p">
@@ -162,10 +162,14 @@
                         <viewLayoutGuide key="safeArea" id="j5L-Xc-Wdl"/>
                     </view>
                     <navigationItem key="navigationItem" id="q45-gg-z4d"/>
+                    <connections>
+                        <outlet property="coverImage" destination="oW6-ZJ-S5Q" id="dSO-hZ-WAL"/>
+                        <outlet property="descLabel" destination="sTz-ic-13p" id="4j9-pK-npd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WA1-r9-zJQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1958" y="885"/>
+            <point key="canvasLocation" x="1957.9710144927537" y="884.59821428571422"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4SR-CK-8jT">
